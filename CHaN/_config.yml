@@ -20,8 +20,8 @@ projects:
 
 
 linker:
-  枕流起始页
-    links: https://mr-starter.rth.app/
+  枕流起始页:
+    links: https://mr-starter.rth.app
     avater: https://cdn.retiehe.com/cached-edfcf8a8b627b6c6d3c07879532d97ea/mr-starter/icon.png
     description: 一个自制的小巧起始页
   
