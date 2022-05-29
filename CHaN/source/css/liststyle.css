@@ -21,10 +21,11 @@
  }
  
  #title {
-     top: 10px;
-     position: relative;
+     top: -30px;
+     position: absolute;
      width: 95%;
-     margin: 80px;
+     margin: 50px;
+     left: 20px;
      font-size: 30px;
      font-weight: bolder;
  }
@@ -106,14 +107,22 @@
  
  @media only screen and (max-width: 820px) {
      #title {
-         margin: 40px;
-         top: 25px;
+         margin: 0;
+         top: 45px;
          font-size: 30px;
+         width: 100%;
+         text-align: center;
+         left: 0;
      }
      #quoter {
-         left: -40px;
+         display: none;
+     }
+     #time {
+         display: none;
      }
      #quote {
-         left: 70px;
+         width: 100%;
+         text-align: center;
+         left: 0;
      }
  }
